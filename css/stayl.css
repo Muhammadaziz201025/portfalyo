@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contayner{
+    max-width: 1600px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: black;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 900px;
+    background-color: black;
+}
+.mavzular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.uz{
+    color: #fff;
+}
+.mavzular a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+.nomerla{
+    color: #fff;
+    height: 250px;
+    width: 300px; 
+}
+.nomer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    font-size: 24px;
+}
+.salom{
+    color: #fff;
+    font-size: 32px;
+}
+span{
+    color: green;
+}
+.orqaga{
+    height: 80px;
+    width: 300px;
+    display: inline-block;
+     color: #fff;
+     font-size: 22px;
+     text-decoration: none;
+     background-color: blue;
+     border-radius: 0px 50px 50px 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 2s;
+
+}
+.qaytish{
+    padding: 0px 100px;
+}
